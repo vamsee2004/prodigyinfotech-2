@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+aside {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin-bottom: 10px;
+}
+
+aside nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+    width: calc(100% - 220px);
+    margin-top: 70px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#form-container, #employee-list {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#employee-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#employee-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#employee-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#employee-form button:hover {
+    background-color: #4cae4c;
+}
+
+.employee {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee button {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.employee button:hover {
+    background-color: #c9302c;
+}
